@@ -1,0 +1,16 @@
+services:
+  psarc2feedpak:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    volumes:
+      # Put .psarc files here.
+      - ./input:/input:ro
+
+      # Converted .feedpak files appear here.
+      - ./output:/output
+
+    # With no command-line arguments, recursively convert
+    # every .psarc under ./input.
+    entrypoint: ["/usr/local/bin/psarc2feedpak-docker"]
