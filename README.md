@@ -2,7 +2,7 @@
 A Docker wrapper to help run old / platform specific feedpak scripts on any platform. A work in progress. This project is not associated with official Fee[dB]ack platform, nor the scripts it wraps. Rather, it is a general utility wrapper that outputs .feedpak
 
 ## Currently supported
-### https://github.com/carelesshangman/psarc2feedpak
+### psarc2feedpak : https://github.com/carelesshangman/psarc2feedpak
 How to use
 ```
 git clone https://github.com/writer-in-fancy-pants/feedpak_utilities.git
